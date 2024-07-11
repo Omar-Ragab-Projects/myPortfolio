@@ -1,0 +1,20 @@
+.portfolio {
+  .language {
+    .arabic {
+      a {
+        color: white;
+        background-color: var(--main-color);
+      }
+    }
+    .english {
+      a {
+        background-color: white;
+        color: black;
+        &:hover {
+          background-color: var(--main-color);
+          color: white;
+        }
+      }
+    }
+  }
+}
