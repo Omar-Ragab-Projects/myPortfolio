@@ -342,6 +342,10 @@ ul {
   align-items: center;
   gap: 20px;
   transition: 0.3s;
+  }
+  @media (max-width: 767px) {
+  .portfolio .user-informaion .contact-window a {
+    padding: 30px 10px;
 }
 .portfolio .user-informaion .contact-window a:hover {
   background-color: rgba(103, 58, 183, 0.25);
@@ -353,6 +357,11 @@ ul {
 .portfolio .user-informaion .contact-window a span {
   font-size: 20px;
   color: white;
+}
+@media (max-width: 767px) {
+.portfolio .user-informaion .contact-window a span {
+  font-size: 14px;
+  }
 }
 .portfolio .user-informaion .about-window p {
   line-height: 2;
