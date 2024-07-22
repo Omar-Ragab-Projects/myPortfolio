@@ -92,6 +92,7 @@ ul {
       @media (max-width: 767px) {
         display: flex;
         align-items: center;
+        padding: 5px;
       }
       .user {
         border-bottom: 1px solid var(--main-ligt-color);
@@ -323,6 +324,9 @@ ul {
         align-items: center;
         gap: 20px;
         transition: 0.3s;
+        @media (max-width: 767px) {
+          padding: 30px 10px;
+        }
         &:hover {
           background-color: rgb(103 58 183 / 25%);
         }
@@ -333,6 +337,9 @@ ul {
         span {
           font-size: 20px;
           color: white;
+          @media (max-width: 767px) {
+            font-size: 14px;
+          }
         }
       }
     }
